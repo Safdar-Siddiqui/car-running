@@ -93,6 +93,10 @@ body{
     #road{
         height: 170px;
     }
+
+    body{
+        overflow: hidden;
+    }
 }
 
 @media screen and (max-width:500px){
@@ -105,5 +109,8 @@ body{
     
     #buttons{
         flex-direction: column;
+    }
+    body{
+        overflow: hidden;
     }
 }
