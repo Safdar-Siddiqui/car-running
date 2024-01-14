@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title> Car </title>
+</head>
+<body>
+    <div id="buttons">
+        <button id="runBtn" onclick="runCar()"> Start Car </button>
+        <button id="stopBtn" onclick="stopCar()" disabled> Stop Car </button>
+        <button id="lightsOnBtn" onclick="lightsOn()" > Lights On </button>
+        <button id="lightsOffBtn" onclick="lightsOff()" > Lights Off </button>
+        <button id="hornBtn" onclick="PlayHorn()" > Horn </button>
+    </div>
+
+        <div id="road">
+            <div class="strip"></div>
+            <img src="./yellow-car-without-lights.png" id="car">
+            <img src="./left-silver-car.png" id="car2">
+        </div>
+
+        <!-- <h2 id="pos"> 0 </h2> -->
+
+        <audio  id="horn" src="./car-sound.mp3" autostart ="false"></audio>
+    
+    <script src="script.js"></script>
+</body>
+</html>
