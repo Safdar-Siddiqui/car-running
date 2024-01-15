@@ -10,7 +10,7 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    overflow: hidden;
+   
 }
 
 #buttons{
@@ -79,8 +79,8 @@ body{
 #car2{
     position: absolute;
     top: 25%;
-    left:0;
-    visibility: hidden;
+    left: -191px;
+    /* visibility: hidden; */
     width: 191px;
     height: 40px;
     transform: translateY(-50%);
@@ -109,8 +109,5 @@ body{
     
     #buttons{
         flex-direction: column;
-    }
-    body{
-        overflow: hidden;
     }
 }

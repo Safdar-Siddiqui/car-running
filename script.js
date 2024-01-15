@@ -25,15 +25,15 @@ function runCar() {
     }
 
     car.style.right = position + "px";
-    car2.style.left = position2 + "px";
-    car2.style.visibility = "visible";
+    car2.style.left = position2-200 + "px";
+    // car2.style.visibility = "visible";
 
     if (position >= window.innerWidth) {
       position = 0;
     }
     if (position2 >= window.innerWidth) {
       position2 = 0;
-      car2.style.visibility = "hidden";
+      // car2.style.visibility = "hidden";
     } else {
       car2.style.visibility = "visible";
     }
